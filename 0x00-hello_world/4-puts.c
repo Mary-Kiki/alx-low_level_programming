@@ -1,16 +1,20 @@
-/**
- * File:4-puts.c
- * Auth: Mary Kinyanjui
+/*
+ * File: 4-puts.c
+ * Auth: Mary Kinyanjui <354@alxschool.com>
  */
+
 #include <stdio.h>
+
 /**
- * main - Prints "Programming is like building a multilingual puzzle,
- *                    followed by a nwe line.
- * Return: 0 always
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }
 
