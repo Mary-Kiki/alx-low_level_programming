@@ -5,6 +5,7 @@
 
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main -  Complete the source code in order to print whether the number stored in
