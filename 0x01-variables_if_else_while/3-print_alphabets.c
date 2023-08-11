@@ -4,7 +4,6 @@
  */
 
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main -  Program that prints alphabet in lower
@@ -19,7 +18,10 @@ int main(void)
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		putchar(alphabet);
-		putchar(toupper(alphabet));
+	}
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	{
+		putchar(alphabet);
 	}
 
 	putchar('\n');
