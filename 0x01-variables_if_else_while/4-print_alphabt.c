@@ -11,13 +11,17 @@
  *
  * Return: Always 0.
  */
-int main(void) 
+int main(void)
 {
-	char alphabet;
-	for (alphabet = 'a'; alphabet <= 'z' && != 'q' 
-			&& != 'e'; alphabet++)
+	char alphabet = 'a';
+
+	while(alphabet <= 'z')
 	{
-		putchar(alphabet);
+		if(alphabet != 'q' && != 'e')
+		{
+			putchar(alphabet);
+		}
+		alphabet++
 	}
 
 	putchar('\n');
