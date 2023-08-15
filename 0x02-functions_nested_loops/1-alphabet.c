@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * main -  Program that putchar alphabet
+ * print_alphabet -  Program that putchar alphabet
  *           in lowercase
  *
  * Return: Always 0.
