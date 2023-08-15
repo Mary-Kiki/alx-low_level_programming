@@ -3,7 +3,7 @@
  * Auth: Mary Kinyanjui
  */
 
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main -  Program that putchar _putchar
