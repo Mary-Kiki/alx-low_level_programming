@@ -10,7 +10,7 @@
  * _islower -  Program that putchar 1
  *               if c is lowercase
  *
- * int c - Parameter to be checked
+ * @c: Parameter to be checked
  *
  * Return: Always 0.
  */
