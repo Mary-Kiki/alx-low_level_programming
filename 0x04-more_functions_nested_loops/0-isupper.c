@@ -7,9 +7,11 @@
 #include <ctype.h>
 
 /**
- * int _isupper- Program that check
+ *  _isupper - Program that check
  *                if upper
- * @c: Character to be checked.
+ *
+ * @c: Parameter  to be checked.
+ *
  * Return: Always 0.
  */
 int _isupper(int c)
