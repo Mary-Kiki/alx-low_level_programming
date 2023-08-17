@@ -9,7 +9,7 @@
  *  mul-Program that multiply
  *          2 digit
  *
- * @c: Parameter to be checked.
+ * @a: Parameter to be checked.
  *
  * @b: Paremeter to be checked.
  *
