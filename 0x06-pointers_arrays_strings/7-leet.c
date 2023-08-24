@@ -3,30 +3,39 @@
 
 /**
   * *leet - ...
-  * @s: ...
+  * @str: ...
   *
   * Return: ...
   */
-char *leet(char *s)
+
+char *leet(char *str)
 {
-	int a = 0;
+	char *original = str;
+	int i = 0;
 
-	while (s[a])
+	while (str[i] != '\0')
 	{
-		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'))
+		if (str[i] == 'a' || str[i] == 'A')
 		{
-			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
-			{
-				s[a] -= 13;
-				break;
-			}
-
-			s[a] += 13;
-			break;
+			str[i] = '4';
 		}
-
-		a++;
+		else if (str[i] == 'e' || str[i] == 'E')
+		{
+			str[i] = '3';
+		}
+		else if (str[i] == 'o' || str[i] == 'O')
+		{
+			str[i] = '0';
+		}
+		else if (str[i] == 't' || str[i] == 'T')
+		{
+			str[i] = '7';
+		}
+		else if (str[i] == 'l' || str[i] == 'L')
+		{
+			str[i] = '1';
+		}
+		i++;
 	}
-
-	return (s);
+	return (original);
 }
