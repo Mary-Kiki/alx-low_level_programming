@@ -6,7 +6,7 @@
  *
  * @b: char to be checked
  * @n: int to be checked
- * @*s: pointer
+ * @s: pointer
  *
  * Return: pointer.
  */
